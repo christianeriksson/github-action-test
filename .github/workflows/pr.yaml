@@ -9,7 +9,6 @@ on:
 
 jobs:
   build_and_test:
-    runs-on: sas-github-runner
     steps:
       - uses: actions/checkout@v4
       - name: Build & Test
