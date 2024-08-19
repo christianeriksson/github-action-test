@@ -5,7 +5,8 @@ on:
     branches: [main]
     types: [opened, synchronize, reopened, ready_for_review]
 
-deploy_to_prod:
+jobs:
+  deploy_to_prod:
     runs-on: ubuntu-latest
     environment: verification
     steps:
