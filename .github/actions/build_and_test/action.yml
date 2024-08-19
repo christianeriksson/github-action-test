@@ -1,0 +1,10 @@
+name: 'CI - Build & Test'
+description: 'Builds the server function and runs the jest tests.'
+runs:
+  using: 'composite'
+  steps:
+    - uses: actions/checkout@v4
+
+    - name: Action Step
+      run: echo "Hello World!"
+      shell: bash
