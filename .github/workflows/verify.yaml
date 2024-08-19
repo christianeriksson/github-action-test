@@ -12,4 +12,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Deploy to production environment
-        uses: ./.github/actions/verify-in-test
+        uses: ./.github/actions/verify_in_test
