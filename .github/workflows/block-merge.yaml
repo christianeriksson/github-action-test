@@ -1,0 +1,26 @@
+name: Blocking on approve
+
+on:
+  pull_request_review:
+    branches: [main]
+    types: [submitted]
+
+jobs:
+  approved:
+    if: github.event.review.state == 'approved'
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "approved"
+    
+  deploy_to_test:
+    needs: approved
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "deploying to test"
+  
+  verify_feature:
+    needs: deploy_to_test
+    runs-on: ubuntu-latest
+    environment: verification
+    steps:
+      - run: echo "Do the verificata!"
