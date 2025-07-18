@@ -1,3 +1,5 @@
+PR descriptions cannot be empty
+
 PR descriptions and commit messages should follow the 50/72 character rule for title/body line lengths, and follow this format:
 
 ```
@@ -11,7 +13,9 @@ Refs:
 Story: AB#12345,#12345
 ```
 
-The title of a PR and commit message should be written in present-tense imperative-style, so the history reads like a recipe or a set of instructions.
+The title of a PR and commit message should be written in present-tense imperative-style, so the history reads like a recipe or a set of instructions. 
+
+We do not allow past-tense in the PR title or commit message.
 
 The format of a PR or commit message title should look like `<WHAT> <WHY> <WHERE>` and be no longer than 50 characters. To keep the title short it is encouraged to skip prepositions, like "to", "from", "for", etc. and separate the parts with commas. For example:
 
