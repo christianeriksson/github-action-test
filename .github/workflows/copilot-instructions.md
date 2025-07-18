@@ -6,7 +6,7 @@ TITLE
 BODY
 
 Refs:
-[X] www.example.com
+[1] www.example.com
 
 Story: AB#12345,#12345
 ```
@@ -25,6 +25,6 @@ The body of a PR description or commit message should state the problem and why 
 
 After stating the issue the PR description or commit message should explain why the solution was selected and how the solution was verified.
 
-References in the body of the PR description and in commit messages should have a reference block like this `[{NUMBER}]`, for example `[1]`. In the `Ref:` section the number of the reference together with the external reference should be listed.
+References in the body of the PR description and in commit messages should have a reference block like this `[{NUMBER}]`, for example `[1]`. Each numbered reference in the body should correspond to an entry with the same number in the `Refs:` section. For example, `[1]` in the body would correspond to `[1] www.example.com` in the `Refs:` section.
 
 At the bottom of the PR description and commit message there should be a `Story:` section linking the PR/commit to the relevant story. There should always be two references to a story, formatted as `AB#1234,#1234` (comma-separated), so links can be created to both GitHub and external boards.
