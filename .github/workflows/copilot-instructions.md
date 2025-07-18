@@ -13,8 +13,12 @@ Story: AB#12345,#12345
 
 The title of a PR and commit message should be written in present-tense imperative-style, so the history reads like a recipe or a set of instructions.
 
-The format of a PR or commit message title should look like `<WHAT> <WHY> <WHERE>` and be no longer than 50 characters.
+The format of a PR or commit message title should look like `<WHAT> <WHY> <WHERE>` and be no longer than 50 characters. For example:
 
+- `Read foo over bar for dev access in qux module`
+- `Add flux capacitor enable time travel to DeLorean`
+
+Avoid filler words like `fix bug` and tags like `(feature)` or `(module X) unless the commit/PR only does refactoring, in which case prefixing the title with `REFACTOR:` is encouraged.
 The body of a PR description or commit message should keep line length to a maximum of 72 characters.
 
 The body of a PR description or commit message should state the problem and why it is an issue in present-tense.
