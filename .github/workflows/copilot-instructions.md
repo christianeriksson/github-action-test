@@ -23,4 +23,4 @@ After stating the issue the PR description or commit message should explain why 
 
 References in the body of the PR description and in commit messages should have a reference block like this `[{NUMBER}]`, for example `[1]`. In the `Ref:` section the number of the reference together with the external reference should be listed.
 
-At the bottom of the PR description and commit message there should be a `Story:` section linkng the PR/commit to the relevant story. There should always be two references to a story `AB#1234` and `#1234` so links can be created to both github and external boards.
+At the bottom of the PR description and commit message there should be a `Story:` section linking the PR/commit to the relevant story. There should always be two references to a story `AB#1234` and `#1234` so links can be created to both GitHub and external boards.
