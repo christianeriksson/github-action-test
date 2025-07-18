@@ -18,7 +18,7 @@ The format of a PR or commit message title should look like `<WHAT> <WHY> <WHERE
 - `Read foo over bar for dev access in qux module`
 - `Add flux capacitor enable time travel to DeLorean`
 
-Avoid filler words like `fix bug` and tags like `(feature)` or `(module X) unless the commit/PR only does refactoring, in which case prefixing the title with `REFACTOR:` is encouraged.
+Avoid filler words like `fix bug` and tags like `(feature)` or `(module X)` unless the commit/PR only does refactoring, in which case prefixing the title with `REFACTOR:` is encouraged.
 The body of a PR description or commit message should keep line length to a maximum of 72 characters.
 
 The body of a PR description or commit message should state the problem and why it is an issue in present-tense.
