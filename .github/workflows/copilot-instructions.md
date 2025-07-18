@@ -17,7 +17,7 @@ The format of a PR or commit message title should look like `<WHAT> <WHY> <WHERE
 
 The body of a PR description or commit message should keep line length to a maximum of 72 characters.
 
-The body of a PR description or commit message should states the problem and why it is an issue in present-tense.
+The body of a PR description or commit message should state the problem and why it is an issue in present-tense.
 
 After stating the issue the PR description or commit message should explain why the solution was selected and how the solution was verified.
 
