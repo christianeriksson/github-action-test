@@ -13,7 +13,7 @@ Story: AB#12345,#12345
 
 The title of a PR and commit message should be written in present-tense imperative-style, so the history reads like a recipe or a set of instructions.
 
-The format of a PR or commit message title should look like `<WHAT> <WHY> <WHERE>` and be no longer than 50 characters. To keep the title short it is encoraged to skip preposition, like "to", "from", "for", etc. and separate the parts with commas. For example:
+The format of a PR or commit message title should look like `<WHAT> <WHY> <WHERE>` and be no longer than 50 characters. To keep the title short it is encouraged to skip preposition, like "to", "from", "for", etc. and separate the parts with commas. For example:
 
 - `Read foo over bar for dev access in qux module`
 - `Add flux capacitor, enable time travel, DeLorean`
