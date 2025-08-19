@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy_to_test_and_preview_deploy_to_prod:
-    uses: flysas-tech/teds-cicd-workflows/.github/workflows/validate-on-approval-pre-merge.yml@main
+    uses: christianeriksson/cicd-workflows/.github/workflows/validate-on-approval-pre-merge.yml@main
     secrets: inherit
     with:
       deployments: >
